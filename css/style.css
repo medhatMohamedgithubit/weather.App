@@ -1,0 +1,69 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    
+}
+
+.navbar{
+    background-color:#071952 ;
+}
+.navbar img{
+    width: 4.25rem;
+}
+header{
+    background-image: url(../image/overlay-bg.jpg);
+    background-position: center;
+    width: 100%;
+   height: 50vh;
+   
+}
+.header button{
+    background-color: #088395;
+}
+
+.card{
+    height: 13.5rem;
+}
+
+footer{
+    background-color:#071952 ;
+    padding: 50px;
+}
+footer .sub button{
+    background-color: #088395;
+}
+.navbar .container a{
+    text-decoration: none;
+ 
+}
+.social a{
+    text-decoration: none;
+}
+.social a i{
+    color: #088395;
+    background-color: #EBF4F6;
+    width:2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+}
+.social a i:hover{
+    background-color: #088395;
+    color: #EBF4F6;
+}
+
+
+@media ( max-Width : 768px ) {
+    header{
+        height: 100vh;
+    }
+    footer .container .sub{
+     margin-top: 4%;
+     
+    } 
+
+     .social a i{
+        margin-top: 1.25rem;
+     }
+ }
